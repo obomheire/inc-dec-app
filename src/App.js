@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+  //  Create a react app that has two buttons, Increament and Decreament,
+  //  next to each other at the center of the screen and a default
+  //  value of 0 above the buttons, such that when the Increament is clicked,
+  //  the number increases by 1, and when the Decreament is clicked,
+  //  the number decreases by 1.
+
+  // NB: The number should have a non-negative value.
+
+  return <div>Web Developer Code Interview</div>;
 }
-
-export default App;
